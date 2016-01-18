@@ -6,8 +6,11 @@ I.   This assignment declares two matlab functions namely-<br /><br />
    These functions are defined and used on images.<br /><br />
 
    For this project to work:<br />
-1. Install all the dependencies and then install opencv. Installing from this source is a lot easier -<br />
+   <ol>
+
+<li> Install all the dependencies and then install opencv. Installing from this source is a lot easier -<br />
    http://rodrigoberriel.com/2014/10/installing-opencv-3-0-0-on-ubuntu-14-04/  <br />
+</li>
 2. After installation make a new project and make the DisplayImage.cpp file and then use the code in this repositories    
    file.<br />
 3. Make a CMakeLists.txt file and paste the fillowing lines in it- <br />
@@ -27,5 +30,5 @@ I.   This assignment declares two matlab functions namely-<br /><br />
    and <br />
    Mat image3 = stdfilt(image); <br />
    The images obtained can then be displayed.
-   
+</ol>   
       
