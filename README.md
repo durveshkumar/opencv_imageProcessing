@@ -1,5 +1,6 @@
 # opencv_imageProcessing
-   This assignment declares two matlab functions namely-<br />
+
+I.   This assignment declares two matlab functions namely-<br /><br />
 1. stdfilt <br />
 2. imfill<br />
    These functions are defined and used on images.<br /><br />
@@ -14,8 +15,7 @@
    project( DisplayImage) <br />
    find_package( OpenCV REQUIRED ) <br />
    add_executable( DisplayImage DisplayImage.cpp ) <br />
-   target_link_libraries( DisplayImage ${OpenCV_LIBS} ) <br /><br />
-
+   target_link_libraries( DisplayImage ${OpenCV_LIBS} ) <br />
 4. After that to run the code go in the directory via the shell and write <br />
    $ cmake .  <br />
    $ make  <br />
