@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/durvesh/opencvWork/opencv/opencv-3.0.0-alpha/samples/cpp/tutorial_code/introduction/display_image/DisplayImage.cpp
+opencv2/core/core.hpp
+-
+opencv2/imgcodecs.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+iostream
+-
+string
+-
+cmath
+-
+
