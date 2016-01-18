@@ -10,7 +10,7 @@ For this project to work:<br />
 2. After installation make a new project and make the DisplayImage.cpp file and then use the code in this repositories    
    file.<br />
 3. Make a CMakeLists.txt file and paste the fillowing lines in it- <br />
-    cmake_minimum_required(VERSION 2.8) <br />
+&nbsp    cmake_minimum_required(VERSION 2.8) <br />
     project( DisplayImage) <br />
     find_package( OpenCV REQUIRED ) <br />
     add_executable( DisplayImage DisplayImage.cpp ) <br />
