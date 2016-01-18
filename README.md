@@ -6,14 +6,15 @@ These functions are defined and used on images.<br /><br />
 
 For this project to work:<br />
 1. Install all the dependencies and then install opencv. Installing from this source is a lot easier -<br />
-  http://rodrigoberriel.com/2014/10/installing-opencv-3-0-0-on-ubuntu-14-04/  <br />
-2. After installation make a new project and make the DisplayImage.cpp file and then use the code in this repositories file.<br />
+   http://rodrigoberriel.com/2014/10/installing-opencv-3-0-0-on-ubuntu-14-04/  <br />
+2. After installation make a new project and make the DisplayImage.cpp file and then use the code in this repositories    
+   file.<br />
 3. Make a CMakeLists.txt file and paste the fillowing lines in it- <br />
-  cmake_minimum_required(VERSION 2.8) <br />
-  project( DisplayImage) <br />
-  find_package( OpenCV REQUIRED ) <br />
-  add_executable( DisplayImage DisplayImage.cpp ) <br />
-  target_link_libraries( DisplayImage ${OpenCV_LIBS} ) <br /><br />
+    cmake_minimum_required(VERSION 2.8) <br />
+    project( DisplayImage) <br />
+    find_package( OpenCV REQUIRED ) <br />
+    add_executable( DisplayImage DisplayImage.cpp ) <br />
+    target_link_libraries( DisplayImage ${OpenCV_LIBS} ) <br /><br />
 
 4. After that to run the code go in the directory via the shell and write <br />
    $ cmake .  <br />
