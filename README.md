@@ -13,14 +13,15 @@ I.   This assignment declares two matlab functions namely-<br /><br />
 </li>
 <li>
  After installation make a new project and make the DisplayImage.cpp file and then use the code in this repositories    
-   file.</li>
-<li>   
-Make a CMakeLists.txt file and paste the fillowing lines in it- <br />
+   file.
+</li>
+<li>
+Make a CMakeLists.txt file and paste the fillowing lines in it <br />
    cmake_minimum_required(VERSION 2.8) <br />
    project( DisplayImage) <br />
    find_package( OpenCV REQUIRED ) <br />
    add_executable( DisplayImage DisplayImage.cpp ) <br />
-   target_link_libraries( DisplayImage ${OpenCV_LIBS} ) <br />
+   target_link_libraries( DisplayImage ${OpenCV_LIBS} ) 
 </li>
 <li>
  After that to run the code go in the directory via the shell and write <br />
